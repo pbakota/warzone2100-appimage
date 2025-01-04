@@ -2,12 +2,12 @@
   "buildinfo": [
     {
       "prerun": [
-	"curl -sSL -o ~/.cache/deb2appimage/debs/warzone2100_ubuntu22.04_amd64.deb 'https://github.com/Warzone2100/warzone2100/releases/download/4.4.2/warzone2100_ubuntu22.04_amd64.deb'",
+	"curl -sSL -o ~/.cache/deb2appimage/debs/warzone2100_ubuntu22.04_amd64.deb 'https://downloads.sourceforge.net/project/warzone2100/releases/4.5.5/warzone2100_ubuntu22.04_amd64.deb'",
         "mkdir -p ~/.cache/deb2appimage/AppDir/usr/bin",
         "cp ./startup.sh ~/.cache/deb2appimage/AppDir/usr/bin/warzone2100.sh"
       ],
       "name": "warzone2100",
-      "version": "4.4.2-glibc_2.35",
+      "version": "4.5.5-glibc_2.35",
       "deps": "libasound2,libcurl3-gnutls,libdecor-0-0,libdrm2,libfreetype6,libfribidi0,libgbm1,libgcc-s1,libharfbuzz0b,libogg0,libopenal1,libopus0,libphysfs1,libpng16-16,libsodium23,libsqlite3-0,libtheora0,libvorbis0a,libvorbisfile3,zlib1g,librtmp1,libssh2-1,libldap-2.5-0,libsndio7.0,libsasl2-2,libbsd0,libmd0,libnghttp2-14",
       "repoarch": "amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64",
       "distrorepo": "Debian",
